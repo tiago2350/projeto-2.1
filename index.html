@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="./Imagens/telefone.jpg" type="image/x-icon" />
+</head>
+<body>
+    <div class="container">
+        <header class="header" >
+            <h1 class="title" >Agende seu Contato</h1>
+            <div class="fundo">
+                    <img class="icone" src="./Imagens/telefone.webp" alt="icone">
+            </div>
+        </header>
+        <div class="form-container">
+        <form id="form-contatos">
+            <input type="text" id="nome" required placeholder="Digite o Nome" />
+            <input type="tel" id="telefone" required placeholder="Digite o número" />
+            <div class="buttons">
+            <button type="submit">Salvar</button>
+            <button type="reset">Apagar</button>
+            <button type="button" id="reset">Limpar contatos</button>
+        </div>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody class="tbody"></tbody>
+        </table>  
+    </div>
+    <footer class="footer">@Tiago silva  | Todos os direitos reservados</footer>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
